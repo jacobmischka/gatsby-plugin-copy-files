@@ -1,0 +1,12 @@
+{
+  "name": "@jacobmischka/gatsby-plugin-copy-files",
+  "version": "1.0.0",
+  "description": "Copies files from source to destination.",
+  "main": "gatsby-node.js",
+  "repository": "https://github.com/jacobmischka/gatsby-plugin-copy-files",
+  "author": "Jacob Mischka <jacob@mischka.me>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^4.0.0"
+  }
+}
