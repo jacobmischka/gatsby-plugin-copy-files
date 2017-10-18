@@ -1,5 +1,5 @@
 {
-  "name": "@jacobmischka/gatsby-plugin-copy-files",
+  "name": "gatsby-plugin-copy-files",
   "version": "1.0.0",
   "description": "Copies files from source to destination.",
   "main": "gatsby-node.js",
