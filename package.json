@@ -8,5 +8,9 @@
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^4.0.0"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ]
 }
