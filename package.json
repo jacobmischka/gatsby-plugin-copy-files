@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-copy-files",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Copies files from source to destination.",
   "main": "gatsby-node.js",
   "repository": "https://github.com/jacobmischka/gatsby-plugin-copy-files",
