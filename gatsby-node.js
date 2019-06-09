@@ -3,9 +3,11 @@ const fsExtra = require('fs-extra');
 
 exports.onCreateNode = ({ node }, pluginOptions) => {
 	const { source, destination } = pluginOptions;
+	const sourceNormalized = path.normalize(source);
 	if (node.internal.type === 'File') {
-		if (node.dir.includes(source)) {
-			const relativeToDest = node.dir.replace(source, '');
+		const dir = path.normalize(node.dir);
+		if (dir.includes(sourceNormalized)) {
+			const relativeToDest = dir.replace(sourceNormalized, '');
 			const newPath = path.join(
 				process.cwd(),
 				'public',
